@@ -12,7 +12,7 @@
 
 /// Simple brute force method
 int SumDivisibleBy3or5a(
-  const int n) ///< [in] Cutoff at which to stop abbing multiples of 3 and 5
+  const int n) ///< [in] Cutoff at which to stop adding multiples of 3 and 5
 {
   int sum = 0;
   for (int i = 1; i < n; i++)
@@ -23,7 +23,7 @@ int SumDivisibleBy3or5a(
 
 /// Efficient method from project euler.net forum
 int SumDivisibleBy3or5b(
-  const int n) ///< [in] Cutoff at which to stop abbing multiples of 3 and 5
+  const int n) ///< [in] Cutoff at which to stop adding multiples of 3 and 5
 {
   int sum = 0;
   for (int i = 3;  i < n; i += 3)  sum +=i;
