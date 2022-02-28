@@ -34,8 +34,10 @@ int SumDivisibleBy3or5b(
 
 int main()
 {
+  //Test simple brute force method
   assert(SumDivisibleBy3or5a(10) == 23);
   printf("SumDivisibleBy3or5a(1000) = %d\n", SumDivisibleBy3or5a(1000));
+  //Test efficient method
   assert(SumDivisibleBy3or5b(10) == 23);
   printf("SumDivisibleBy3or5b(1000) = %d\n", SumDivisibleBy3or5b(1000));
   return 0;
