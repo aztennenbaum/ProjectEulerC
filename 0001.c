@@ -21,7 +21,7 @@ int SumDivisibleBy3or5a(
   return sum;
 }
 
-/// Efficient method from project euler.net forum
+/// Efficient method
 int SumDivisibleBy3or5b(
   const int n) ///< [in] Cutoff at which to stop adding multiples of 3 and 5
 {
